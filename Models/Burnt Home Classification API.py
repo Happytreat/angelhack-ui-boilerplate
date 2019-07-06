@@ -19,7 +19,7 @@ visual_recognition = VisualRecognitionV3(
     '2018-03-19',
     iam_apikey=apikey)
 
-with open('./4EF8313400000578-0-image-a-11_1533857657594.jpg', 'rb') as images_file:
+with open('./pexels-photo-617278.jpeg', 'rb') as images_file:
     classes = visual_recognition.classify(
         images_file,
         threshold='0.6',
