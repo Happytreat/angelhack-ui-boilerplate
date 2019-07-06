@@ -17,12 +17,12 @@ export const Logo = () => (
 						alt="logo"
 						style={{ width: 60, height: 50, paddingRight: 10, display: 'inline' }}
 					/>
-					<h4 style={{ fontWeight: 700, display: 'inline' }}>Hackathon Boilerplate</h4>
+					<h4 style={{ fontWeight: 700, display: 'inline' }}>Crowdsourced Fund Relief</h4>
 				</a>
 			</Grid>
 			<Grid item xs={2}>
 				<Text level={4} strong>
-					Hi Melodies!{' '}
+					Hello Helpers!{' '}
 				</Text>
 				{'      '}
 				<Badge count={3} style={{ paddingLeft: '5%' }}>
